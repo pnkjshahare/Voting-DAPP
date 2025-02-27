@@ -1,0 +1,22 @@
+{
+  "name": "voting-dapp",
+  "version": "1.0.0",
+  "description": "Decentralized Voting Application",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "migrate:rinkeby": "truffle migrate --network rinkeby",
+    "client": "cd client && npm start",
+    "install:client": "cd client && npm install",
+    "build:client": "cd client && npm run build"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "truffle": "^5.6.2"
+  }
+}
